@@ -1,0 +1,108 @@
+
+.pig-face{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: pink; 
+    position: relative;
+}
+.rear{
+    position: absolute;
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    top:-10px;
+    left: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: pink;
+}
+.lear{
+    position: absolute;
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    top:-10px;
+    right: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.reye{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    
+}
+.leye{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    
+}
+.rpupil{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: black;
+    left: 50px;
+}
+.lpupil{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: black;
+    right: 50px;
+}
+.nose{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    bottom: 38px;
+    left: 50%;
+    border-radius: 40px 38px 40px 40px;
+    transform:translateX(-50%);
+    border: 1px solid black;
+    background-color:red;
+}
+.lnostril{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 45px;
+    top: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+.rnostril{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 45px;
+    top: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
